@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=devive-width, user-scalable=no" />
+  <title>Hoja de Vida</title>
+</head>
+<body>
+  <header>
+    <svg width="150px" height="120px" viewBox="0 0 150 120">
+      <image width="150px" height="120px" xlink:href="images/logo.svg"></image>
+    </svg>
+    <h1>Hoja de Vida</h1>
+    <h2>Eduardo Koch Freundt</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Educación</h2>
+      <table border="1px">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>1985</td>
+          <td>Colegio San Vicente de Paúl</td>
+          <td>Tarma</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <td>Universidad San Martín de Porres</td>
+          <td>Lima</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Universidad Alas Peruanas</td>
+          <td>Lima</td>
+          <td>8vo Ciclo</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+  <hr />
+  <section>
+    <article>
+      <h3>Agregar Estudios</h3>
+      <form autocomplete="off" name="miForm">
+          <p>
+            <label for=""><strong>Año: </strong></label>
+            <select >
+               <option value="2018">2018</option>
+               <option value="2017">2017</option>
+               <option value="2016">2016</option>
+               <option value="2015">2015</option>
+            </select>
+          </p>
+          <p>
+            <label for=""><strong>Institución: </strong></label>
+            <input type="text" required >
+          </p>
+          <p>
+            <label for=""><strong>Lugar: </strong></label>
+            <textarea name="lugar" rows="2" cols="40"></textarea>
+          </p>
+          <p>
+            <label for=""><strong>Culminó? </strong></label>
+            <input type="radio">Si
+            <input type="radio">No
+          </p>
+          <p>
+            <input type="submit" name="btnEnviar" value="Enviar">
+          </p>
+      </form>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; Derechos Reservados</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:eduardokoch@hotmail.com">eduardokoch@hotmail.com</a></li>
+      <li><strong>Teléfono:</strong> +51-972 777 319</li>
+      <li><strong>Dirección:</strong> Jr. Pozuzo #161 - Oxapampa - Pasco - Perú</li>
+    </ul>
+  </footer>
+</body>
+</html>
