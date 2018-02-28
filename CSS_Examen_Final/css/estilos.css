@@ -22,7 +22,23 @@ header {
   height: 40px;
   display: flex;
 	flex-flow: row wrap;
+  animation-name: header-animacion;
+	animation-duration: 2s;
 }
+
+/* Animación Header*/
+@keyframes header-animacion {
+	0% {
+		margin-top: 150%;
+	}
+	60% {
+		margin-top: -5%;
+	}
+	100% {
+		margin-top: 0%;
+	}
+}
+
 
 h1 {
   margin: 0px;
@@ -246,5 +262,4 @@ footer div {
   .contenido {
     width: 990px;
   }
-
 }
