@@ -1,0 +1,44 @@
+/* Desarrollado por: Eduardo Koch Freundt
+   Fecha: Marzo - 2018, Next-U
+*/
+
+.turismo-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-nav {
+  background-color:#bbdefb;
+  min-height: 140px;
+}
+
+.fondo-form {
+  background-color: #bbdefb;
+}
+
+.rojo-light {
+    background-color: #e57373;
+}
+
+.btn-floating {
+  background-color: white;
+}
+
+.btn-floating:hover {
+  background-color: #f44336;
+}
+
+.slogan {
+  display: block;
+  position:relative;
+  top : 0px;
+}
+
+.sidenav-trigger {
+  color: white;
+}

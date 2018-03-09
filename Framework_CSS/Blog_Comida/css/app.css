@@ -1,0 +1,87 @@
+/* Desarrollado por: Eduardo Koch Freundt
+   Next-U - 2018
+*/
+
+.gastronomia-body {
+  background: url(../images/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  font-size: 0.8em;
+}
+
+/* Fondo */
+.transparente {
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#000;
+}
+
+/* Bordes de Separación de Contenidos */
+.borde-r {
+  border-right: 1px solid #CCC;
+  z-index: 1;
+}
+
+.borde-tr {
+  border-top: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  z-index: 1;
+}
+
+.borde-t {
+  border-top: 1px solid #CCC;
+  z-index: 1;
+}
+
+
+/* Menu */
+.menu li a {
+  color: black;
+}
+.menu li:hover {
+  background-color: #ffcc80;
+}
+
+a {
+  color: #ffb74d;
+}
+a:hover {
+  color: black;
+}
+
+/* Articulos */
+article {
+  display: block;
+}
+
+.color-menu {
+  background-color: #f5f5f5;
+}
+
+.color-articulo {
+  background-color: #ffb74d;
+  border-color: #f5f5f5;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ffcc80;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* Comentarios */
+.regular {
+    width: 95%;
+    background: url(../images/comentarios.png) 0px 2px no-repeat;
+    padding-left: 30px;
+}
