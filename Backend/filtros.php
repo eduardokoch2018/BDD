@@ -2,6 +2,7 @@
 // Devuelve un JSON con el tipo de filtro indicado: ciudad o tipo
 // Eduardo Koch Freundt
 // 02/04/2018
+// Probado en XAMPP for Windows 7.2.3
 
 // Leer fichero JSON
 $data = file_get_contents("http://localhost:8082/EF/data-1.json");
