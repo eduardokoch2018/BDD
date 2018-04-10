@@ -1,0 +1,16 @@
+Pasos a seguir para ejecutar la Agenda, desarrolladada
+en NodeJS y BDD Mongoo
+Eduardo Koch Freundt
+Next-U, Abril - 2018
+--------------------------------------------------------
+
+Paso 1: Copiar la Carpeta  Agenda_Node a una unidad de disco local
+Paso 2: Debe de estar corriendo el mongod  
+Paso 3: Ejecutar el comando siguiente:
+	node index.js
+	para iniciar el servidor web NodeJS
+Paso 4: Ir al explorador Web y digitar:
+http://localhost:3000/
+Paso 5: Ingresar el Usuario y Contraseña
+        u: eduardo.koch@next-u.com
+        p: 12345

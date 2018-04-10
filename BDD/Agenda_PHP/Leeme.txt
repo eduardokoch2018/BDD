@@ -1,0 +1,17 @@
+Pasos a seguir para ejecutar la Agenda, desarrolladada
+en php y BDD MySql
+Eduardo Koch Freundt
+Next-U, Abril - 2018
+--------------------------------------------------------
+
+Paso 1: Ir phpMyAdmin de XAMPP y Crear la BDD agenda_db 
+Paso 2: Ejecutar el Script agenda_db.sql 
+Paso 3: Dentro de la carpeta server, ubicar el archivo:
+        check_login.php
+        Cambiar el usuario y contraseña de acceso  a la BDD MySql
+Paso 4: Copiar la Carpeta: Agenda_Php a la ruta de XAMPP (C:\xampp\htdocs)
+Paso 5: Ir al explorador Web y digitar:
+http://localhost:<puerto>/Agenda_Php/client/index.php
+Paso 6: Ingresar el Usuario y Contraseña
+  u: eduardo.koch@next-u.com
+  p: 12345
